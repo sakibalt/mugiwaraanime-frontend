@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+    text-align: center;
+}
+
+header {
+    background-color: #222;
+    padding: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #f1c40f;
+    border: none;
+    cursor: pointer;
+}
+
+#animeList {
+    margin-top: 20px;
+}
