@@ -1,6 +1,11 @@
 async function loadAnime() {
     try {
-        let response = await fetch("https://gogoanime-api-xnd4.onrender.com/api/anime");
+        let response = await const API_BASE_URL = "https://mugiwara-anime.vercel.app/api/v2/hianime";
+
+fetch(`${API_BASE_URL}/home`)
+  .then((response) => response.json())
+  .then((data) => console.log(data)) // Check if it logs anime data
+  .catch((error) => console.error("Error fetching anime:", error));
         let data = await response.json();
 
         let container = document.getElementById("anime-container");
